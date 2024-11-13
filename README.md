@@ -11,7 +11,9 @@ This project is a custom recreation of the YouTube interface built using HTML an
 ### Purpose
 ##### The project served as a hands-on exercise to deepen my understanding of CSS layout techniques, including Flexbox for structuring content and CSS Grid for managing the video preview layout. It also explores responsive design and user interface organization, closely studying YouTube's UI to replicate its features and improve my front-end development skills.
 ### Project Overview:
-
-<img src="[(https://github.com/user-attachments/assets/6c60c1a6-615e-467b-bc3c-f485fcda2e06)" alt="Profile Picture" width="200" height="200">
 ![Project Overview](https://github.com/user-attachments/assets/6c60c1a6-615e-467b-bc3c-f485fcda2e06)
+
+### How to Find and Download Any YouTube Video Thumbnail :
+
+ ##### https://img.youtube.com/vi/the id of the vd /maxresdefault.jpg
 
