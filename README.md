@@ -9,4 +9,4 @@ This project is a custom recreation of the YouTube interface built using HTML an
 #### Font Integration: Uses Google Fonts for a modern aesthetic that matches YouTube's overall styling.
 #### Icons and Styling: Incorporates SVG icons for a clean, sharp look, with CSS custom styling for each element to ensure visual consistency and quality.
 ### Purpose
-#### The project served as a hands-on exercise to deepen my understanding of CSS layout techniques, including Flexbox for structuring content and CSS Grid for managing the video preview layout. It also explores responsive design and user interface organization, closely studying YouTube's UI to replicate its features and improve my front-end development skills.
+##### The project served as a hands-on exercise to deepen my understanding of CSS layout techniques, including Flexbox for structuring content and CSS Grid for managing the video preview layout. It also explores responsive design and user interface organization, closely studying YouTube's UI to replicate its features and improve my front-end development skills.
