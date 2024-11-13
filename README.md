@@ -1,5 +1,5 @@
 # YouTube-UI-Clone
-#Project Description
+# Project Description
 This project is a custom recreation of the YouTube interface built using HTML and CSS. The aim was to replicate the core structure and layout of YouTube's main page, including the header, search bar, sidebar menu, and video grid layout. The design focuses on responsiveness, clean code structure, and the use of web fonts for a visually appealing interface.
 
 #Key Features
