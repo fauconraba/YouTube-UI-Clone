@@ -13,7 +13,5 @@ This project is a custom recreation of the YouTube interface built using HTML an
 ### Project Overview:
 ![Project Overview](https://github.com/user-attachments/assets/6c60c1a6-615e-467b-bc3c-f485fcda2e06)
 
-### How to Find and Download Any YouTube Video Thumbnail :
 
- ##### https://img.youtube.com/vi/the id of the vd /maxresdefault.jpg
 
