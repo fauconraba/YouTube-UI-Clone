@@ -1,0 +1,29 @@
+body{
+    margin:0;
+    padding-top: 75px;
+    padding-left: 94px;
+    padding-right: 18px;
+    padding-bottom: 900px;
+    background-color:rgb(245, 240, 240) ;
+
+}
+/* 
+position fixed ->> placed in the browser window
+position absolute -> placed on the page 
+!. fixed when we scroll doesnt move when 
+we scroll
+!. absolute move when we scroll is fixed
+just on page 
+*/
+
+/* 
+z-index -> 0 by default
+   -> behind
+
+   <the greater> 
+*/
+p{
+    font-family: Roboto,Arial;
+    margin-top:0;
+    margin-bottom: 0;
+}

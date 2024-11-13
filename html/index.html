@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400
+    ..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:
+    ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,
+    700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/all.css" >
+    <link rel="stylesheet" href="../styles/sidebar.css">
+    <title>YouTube.com</title>
+</head>
+<!--inline element :appear within a line of text-->
+<body>
+    <div class="header">
+        <div class="left-section">
+            <img class="menu" src="../icons/menu.svg" >
+            <img class="youtube-logo" src="../icons/youtube-logo.svg">
+            <div class="cntr">MA</div>
+        </div>
+        <div class="middle-section">
+            <input class="search" type="text" placeholder="Search">
+            <button class="search-btn"> <img class="search-icn" src="../icons/search.svg" alt="search"> </button>
+            <button class="voice-btn"> <img class="voice-icn" src="../icons/voice-search-icon.svg" alt="VOICE">    </button>
+        </div>
+        <div class="right-section"> 
+           <img class="upload-icn" src="../icons/upload.svg" alt="">
+           <img class="apps-icn" src="../icons/youtube-apps.svg" alt="">
+           <div class="not-icn-container">
+            <img class="notification-icn" src="../icons/notifications.svg" alt="">
+           <div class="notif-count">9</div>
+            </div>
+           <img class="ytb-prfl" src="../icons/profile.JPG" alt="">
+        </div>
+        
+    </div>
+<!--!!!!!!!!!!!!!!!!!!!!!!!!!-->
+    <div class="sidebar">
+       <div class="sidebar-icn">
+        <img src="../icons/home.svg">
+        <div>Home</div>
+       </div>
+       <div class="sidebar-icn">
+        <img src="../icons/explore.svg">
+        <div>Explore</div>
+       </div>
+       <div class="sidebar-icn">
+        <img src="../icons/subscriptions.svg" >
+        <div>Subscriptions</div>
+       </div>
+       <div class="sidebar-icn">
+        <img src="../icons/originals.svg" >
+        <div>Originals</div>
+       </div>
+       <div class="sidebar-icn">
+        <img src="../icons/youtube-music.svg" >
+        <div>YouTube Music</div>
+       </div>
+       <div class="sidebar-icn">
+        <img src="../icons/library.svg" >
+        <div>library</div>
+       </div>
+    </div>
+
+
+    <div class="vd-grid">
+        <div class="video-preview">
+            <div class="pic-row">
+                <img class="thumbnail" src="../images/psycho.jpg">
+                <div class="vd-time">20:33</div>
+            </div>
+            <div class="vd-info-grid">
+                <div class="channel-pic"> 
+                    <img class="prf" src="../profiles/psycholo.jpg" >
+                </div>
+                <div class="vd-info">
+                    <p class="vd-title">    
+                        The Psychology of Money in 20 minutes
+                    </p>
+                    <p class="vd-author">
+                        Escaping Ordinary
+                    </p>
+                    <p class="vd-stats">
+                       3,5 M Views &#183; 1 year ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    <!--   container for the grid -->
+    
+    <div class="video-preview">
+        <div class="pic-row">
+            <img class="thumbnail" src="../images/mqdefault.jpg">
+            <!--block element: takes up the entire line-->
+            <div class="vd-time">5:59</div>
+        </div>
+        <div class="vd-info-grid">
+            <div class="channel-pic"> 
+                <img class="prf" src="../profiles/farouk.jpg" >
+            </div>
+            <div class="vd-info">
+                <p class="vd-title">    
+                    حقيقة شنو وقع في أمستردام !؟
+                </p>
+                <p class="vd-author">
+                    Farouk Life
+                </p>
+                <p class="vd-stats">
+                   285 K Views &#183; 18 hours ago
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="video-preview">
+        <div class="pic-row">
+            <img class="thumbnail" src="../images/swinga.jpg">
+            <div class="vd-time">5:59</div>
+        </div>
+        <!-- to create a grid we need to create it inside the container-->
+        <div class="vd-info-grid">
+         <!-- first grid -->
+            <div class="channel-pic"> 
+                <img class="prf" src="../profiles/channels4_profile.jpg" >
+            </div>
+         <!-- second grid-->
+            <div class="vd-info">
+                <p class="vd-title">    
+                    المدارس الرائدة: هل هي بداية نهضة أم نهاية التعليم العمومي؟
+                </p>
+                <p class="vd-author">
+                    Mustapha Swinga
+                </p>
+                <p class="vd-stats">
+                    205 k vies &#183; 1 day ago
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <!--block element: takes up the entire line-->
+    <!-- inline-block element :
+     only takes up as much space as needed-->
+
+    <div class="video-preview">
+        <div class="pic-row">
+            <img class="thumbnail" src="../images/hqdefault.jpg">
+            <div class="vd-time">5:59</div>
+        </div>
+        <div class="vd-info-grid">
+            <div class="channel-pic"> 
+                <img class="prf" src="../profiles/unnamed.jpg" >
+            </div>
+            <div class="vd-info">
+                <p class="vd-title">    
+                    State of Dev in Morocco 2024 🇲🇦 شارك فأكبر استطلاع ديال البرمجة في المغرب
+                </p>
+                <p class="vd-author">
+                    GeeksBlaBla
+                </p>
+                <p class="vd-stats">
+                   4,7K Views &#183; 1 Month ago
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="video-preview">
+        <div class="pic-row">
+            <img class="thumbnail" src="../images/maxresdefault.jpg">
+            <div class="vd-time">5:59</div>
+        </div>
+        <!-- to create a grid we need to create it inside the container-->
+        <div class="vd-info-grid">
+         <!-- first grid -->
+            <div class="channel-pic"> 
+                <img class="prf" src="../profiles/taouil_profile.jpg" >
+            </div>
+         <!-- second grid-->
+            <div class="vd-info">
+                <p class="vd-title">    
+                    مع عبد الرزاق اليوسفي : المقاولة و الشركات الناشئة | العقار | الذكاء الاصطناعي | التجارة الإلكترونية
+                </p>
+                <p class="vd-author">
+                    TOUIL TALKS
+                </p>
+                <p class="vd-stats">
+                    60 K views &#183; 1 year ago
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <div class="video-preview">
+        <div class="pic-row">
+            <img class="thumbnail" src="../images/dirlkit.jpg">
+            <div class="vd-time">5:59</div>
+        </div>
+        <div class="vd-info-grid">
+            <div class="channel-pic"> 
+                <img class="prf" src="../profiles/kit.jpg" >
+            </div>
+            <div class="vd-info">
+                <p class="vd-title">    
+                    الإعدام الشهير للضباط العشر بعد محاولة انقلاب الصخيرات : جنرالات كولونيلات وكوماندار
+                </p>
+                <p class="vd-author">
+                    Dir L'Kit-دير الكيت
+                </p>
+                <p class="vd-stats">
+                   60 k Views &#183; 21 hours ago
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="video-preview">
+        <div class="pic-row">
+            <img class="thumbnail" src="../images/Hassan.jpg">
+            <div class="vd-time">1:14:18</div>
+        </div>
+        <!-- to create a grid we need to create it inside the container-->
+        <div class="vd-info-grid">
+         <!-- first grid -->
+            <div class="channel-pic"> 
+                <img class="prf" src="../profiles/Hsn.jpg" >
+            </div>
+         <!-- second grid-->
+            <div class="vd-info">
+                <p class="vd-title">    
+                    Hassan II du Maroc invité de "L'Heure de Vérité" | Archive INA
+                </p>
+                <p class="vd-author">
+                    INA Politique
+                </p>
+                <p class="vd-stats">
+                    12 M views &#183; 5 years ago
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="video-preview">
+        <!--relative position-->
+             <div class="pic-row">
+                    <img class="thumbnail" src="../images/msemna.jpg">
+                    <!-- absolute position -->
+                    <div class="vd-time">5:59</div>
+                </div>
+                <!-- to create a grid we need to create it inside the container-->
+                <div class="vd-info-grid">
+                 <!-- first grid -->
+                    <div class="channel-pic"> 
+                        <img class="prf" src="../profiles/msemna_profile.jpg" >
+                    </div>
+                 <!-- second grid-->
+                    <div class="vd-info">
+                        <p class="vd-title">    
+                            24H F CASA AVEC 0 DH
+                        </p>
+                        <p class="vd-author">
+                            Meryem Lacurly
+                        </p>
+                        <p class="vd-stats">
+                            8,67 k views &#183; 1 day ago
+                        </p>
+                    </div>
+        
+                </div>
+            </div>
+    
+</div>
+
+   
+
+</body> 
+</html>

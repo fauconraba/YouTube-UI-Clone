@@ -1,0 +1,33 @@
+.sidebar{
+    position:fixed;
+    left:0;
+    bottom: 0;
+    top:90px;
+    /* border: 9px dotted red; */
+    width:72px;
+}
+.sidebar-icn{
+    height: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+   margin-bottom: 13px;
+    /* margin-bottom: 1px; */
+    z-index:15;
+    padding-top: 5px;
+    cursor:pointer;
+}
+.sidebar-icn:hover{
+    background-color: rgb(225, 225, 225);
+}
+.sidebar-icn img {
+
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.sidebar-icn div{
+    font-family: roboto,arial;
+    font-size:10px;
+}

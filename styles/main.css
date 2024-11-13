@@ -1,0 +1,84 @@
+/*
+    property | default width | new line | width , height|
+    _________|_______________|__________|_______________|
+    block    | 100% pf parent|  TRUE    |  respect      |
+             | width         |          |               |
+    _________|_______________|__________|_______________|
+    inline   | fit content   | FALSE    | no respect
+*/
+
+.thumbnail{
+    width: 100%;
+    border-radius: 8px;
+     /*
+     is not necessary in this case
+     display: block; 
+      */
+}
+
+.vd-title{
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 12px;
+}
+
+/* .video-preview{
+    
+    /* 
+    replace by gap 
+    margin-right: 10px;
+     
+    
+     */
+.prf{
+    border-radius: 50px;
+    width: 36px;
+}
+.vd-info-grid{
+    display: grid;
+    grid-template-columns:50px 1fr ;
+}
+.thumbnail:hover{
+    cursor:pointer;
+}
+.vd-grid{
+    display: grid;
+    /*  3 columns takes the entire space  */
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 16px;
+}
+
+.pic-row{
+    margin-bottom: 7px;
+    position:relative;
+}
+.vd-author , .vd-stats {
+    
+    font-size: 12px;
+    color:rgb(96,96,96);
+}
+.vd-author {
+    margin-top: 11px;
+    margin-bottom: 4px;
+}
+/* 3:16  */
+.vd-time{
+    font-family: roboto,arial;
+    font-size:13px;
+    color:white;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.711);
+
+    /* absolute inside relative */
+    position: absolute;
+    right :7px;
+    bottom: 10px;
+  
+    padding: 4px 4px ;
+    border-radius: 4px ;
+
+
+
+}
